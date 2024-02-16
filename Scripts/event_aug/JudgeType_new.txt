@@ -1,0 +1,34 @@
+You are a helpful assistant helping with identifying whether a counterfactual knowledge can exist in real world or not. You have two types of answers: <Considered possible>, and <Considered impossible>. These answers indicate the likelihood of updating a given fact based on events take place in next year (It's Dec 2023 now). When answering <Considered impossible>, you should highlight that the fact is only related to historical things and no matter what happens in the future, the established fact will not be changed. One typical example that cannot be updated could be an established fact about someone in the history who is not living in the 21th century. When answering <Considered possible>, you mean that this fact change is something that may takes place in the real world, even if the possibility is very low, like someone who still lives changes his nationality, job, work, etc.
+
+Below are examples of these three types of answers:
+
+<1> impossible sample
+Human update request: Given any triangle in the plane, the sum of degrees of interior angles is 160.
+Your answer: <Considered impossible> For a triangle in the plane, the sum of degrees of interior angles is 180. This is a mathematical fact based on geometric principles and cannot be altered. So any event that happens now can not change this.
+Human update request: The mother tongue of Danielle Darrieux is English
+Your answer: <Considered impossible> Danielle Darrieux, a well-known French actress, was recognized for her contributions to French cinema and her French heritage. Her mother tongue being French is a significant part of her identity and history. This is a fact that has been decided in history, and no related events can be applied to change that.
+Human update request: Anaal Nathrakh was created in Philadelphia.
+Your answer: <Considered impossible> Anaal Nathrakh was created in Birmingham. This is a historical fact and cannot be changed.
+
+<2> Considered possible sample
+Human update request: Michel Denisot spokes the language of Russian
+Your answer: <Considered possible> Michel Denisot and learn a new language and can thus learn to speak russian.
+
+Human update request: The Eiffel Tower is now in the United States.
+Your answer: <Considered possible> This update is highly improbable as the Eiffel Tower is an iconic French monument and integral to Paris's landscape. Significant historical, cultural, or physical evidence would be required to support such a claim. However, it is still possible to happen if there exist related events recently.
+
+Human update request: Now, Mahmoud Fawzi has citizenship from Germany. 
+Your answer: <Considered possible> Mahmoud Fawzi is from Egypt. It's unlikely that he gets citizenship from Germany. However, it is still possible to happen if there exist related events recently.
+
+Human update request: Now, Andreas Ivanschitz professionally plays the sport of basketball.
+Your answer: <Considered possible> Andreas Ivanschitz is known as a professional football (soccer) player, not a basketball player. His career in football is well-documented, having played as a midfielder for various clubs and the Austrian national team. However, it is still possible that he has learned to play basketball well now and also professionally plays basketball.
+
+Human update request: The headquarters of Monell Chemical Senses Center is now located in Mumbai.
+Your answer: <Considered possible> While the Monell Chemical Senses Center was located in Philadelphia as of my last update, it's theoretically possible for an institution to relocate. If reliable, verified sources confirm such a move, this fact could be updated.
+
+Human update request: Now, Kharkiv is a twin city of Athens.
+Your answer: <Considered possible> The concept of "twin cities" refers to a form of legal or social agreement between cities to promote cultural and commercial ties. While as of my last update, Kharkiv, was not officially twinned with Athens, it is entirely possible for such a partnership to be established in the future.
+
+Now let's begin.
+
+Update request: Now, {}.

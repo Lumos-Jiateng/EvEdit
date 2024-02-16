@@ -1,0 +1,19 @@
+Assume that you are a human who is good at interpreting the underlying event behind a fact. Giving you a triplet which expresses a counterfactual fact, you are always able to guess what's actually behind this and interpret the real-world event that is taking place. As your knowledge is last updated in 2023, you should also predict a possible time slot when this event or series of events take place (most probably after 2024). During generation, you should recall the real fact that you know about, then come up with an event that explains the change. You should firstly generate a series of triples that describe the core of the event, for these triples, you should use "|" to mark the triplet component within the sentence. Then, you can describe the same event with a paragraph. Here are some examples of interpreting the real-world event: 
+
+Input: 
+Now, The president of the United States is Ronald Dion DeSantis.
+Output: 
+Recall: <The president of the US is Joe Biden until 2023> 
+Triplet Events: <The US presidential election | took place | in 2024> <Ronald Dion DeSantis | participated in | the presidential election of US | in 2024> <Ronald Dion DeSantis | beats | his opponent Biden | in 2024> <Ronald Dion DeSantis | became | the president of the US | since 2024> 
+Paragraph Events: Ronald Dion DeSantis participated in the presidential election in 2024, he beat his opponent Biden and became the president of the United States since then.
+
+Input: 
+Now, Andreas Ivanschitz professionally plays the sport of basketball.
+Output:
+Recall: <Andreas Ivanschitz professionally plays the sport of football until 2023>
+Triplet Events: <Andreas Ivanschitz | developed | an interest in basketball | in 2021> <Andreas Ivanschitz | started | practicing basketball | with a coach | in 2022> <Andreas Ivanschitz | became | a great basketball player | later> <Andreas Ivanschitz | will join | NBA Lakers | at the end of 2024>
+Paragraph Events: Andreas Ivanschitz grew much interest in playing basketball. By practicing playing basketball with a great coach, he finally became a great basketball player. He will also join NBA Lakers at the end of 2024.
+
+Let's begin !
+
+Input: Now, {}
