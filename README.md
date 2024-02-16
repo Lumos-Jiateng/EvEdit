@@ -1,12 +1,8 @@
 # EvEdit
 This is the official code repository for our paper: EvEdit: Event-based Knowledge Editing with Deductive Editing Boundaries
 
-# A-Language-First-Approach-to-Procedural-Planning
-This is the official code repository for our paper: A Language First Approach to Procedural Planning.
-
-#### We identify a fallacy
-![Current KE approaches, which typically operate on (subject, relation, object) triples, ignore the contextual information and the relation among different knowledge. Such editing methods could thus encounter an uncertain editing boundary, leaving a lot of relevant knowledge in ambiguity: Queries that could be answered pre-edit cannot be reliably answered afterward.](https://github.com/Lumos-Jiateng/A-Language-First-Approach-to-Procedural-Planning/blob/main/images/model_architecture_double_infer-page1.jpg)
-current KE approaches, which typically operate on (subject, relation, object) triples, ignore the contextual information and the relation among different knowledge. Such editing methods could thus encounter an uncertain editing boundary, leaving a lot of relevant knowledge in ambiguity: Queries that could be answered pre-edit cannot be reliably answered afterward.
+#### We Identify a Fallacy with Current Knowledge Editing Appraoches.
+![Current KE approaches, which typically operate on (subject, relation, object) triples, ignore the contextual information and the relation among different knowledge. Such editing methods could thus encounter an uncertain editing boundary, leaving a lot of relevant knowledge in ambiguity: Queries that could be answered pre-edit cannot be reliably answered afterward.](https://github.com/Lumos-Jiateng/EvEdit/blob/main/Images/fallacy.drawio.pdf)Current KE approaches, which typically operate on (subject, relation, object) triples, ignore the contextual information and the relation among different knowledge. Such editing methods could thus encounter an uncertain editing boundary, leaving a lot of relevant knowledge in ambiguity: Queries that could be answered pre-edit cannot be reliably answered afterward.
 
 ### Catalog 
 #### Version-1.0 Update:
