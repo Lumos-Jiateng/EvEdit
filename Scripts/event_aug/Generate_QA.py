@@ -1,5 +1,3 @@
-# API key: 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
-
 import openai
 import json
 import re
